@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    margin:10px auto;
+    /* background-color: #ffd8a8; */
+    border-radius: 5px;
+    height: 100%;
+    color: #fff;
+}
+.navbar a{
+    color: #fff;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.hotel{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: #da77f2; */
+    border-radius: 5px;
+}
+.icon img{
+    height: 70px;
+    width: 70px;
+    margin:auto 2%;
+    border-radius: 3px;
+}
+.icon h2{
+    margin-right: 3px;
+    color: #000;
+    font-style:italic;
+}
+.logon{
+    display: flex;
+    color: #fff;
+}
+.logon ul{
+    display: flex;
+    justify-content:space-between;
+}
+.logon ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+}
+.logon ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+

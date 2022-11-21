@@ -1,0 +1,26 @@
+{
+  "dishes": [
+    {
+      "dishname":"idli",
+      "gravy":"sambar",
+      "id":1
+    },
+    {
+      "dishname":"poori",
+      "gravy":"saaghu",
+      "id":2
+    },
+    {
+      "dishname": "bisibelebath",
+      "gravy": "boondi",
+      "rating": 9,
+      "id": 3
+    },
+    {
+      "dishname": "MasalaDosa",
+      "gravy": "palya,Chatni",
+      "rating": "5",
+      "id": 4
+    }
+  ]
+}
