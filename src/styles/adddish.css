@@ -1,10 +1,15 @@
 .adddish{
-    width: 60%;
-    position: absolute;
+    background-image: url("https://www.shutterstock.com/image-photo/vegan-vegetarian-restaurant-dishes-top-600w-516747673.jpg");
     right:15%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -20px;
+    margin: auto;
 }
  .addd{
     border: 0.1px solid rgb(215, 200, 200);
@@ -12,6 +17,8 @@
     width: 20rem;
     margin: auto;
     background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 9rem;
 }
 .formdish{
     display: flex;
@@ -25,31 +32,18 @@
     flex-direction: column;
     margin-bottom: 10%;
 }
-.titlebook{
-    margin-top: 20%;
+.dishname h1{
+    margin-bottom: 3%;
+    border-bottom: 1px solid gray;
+    width: fit-content;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
 }
-.ratingbook{
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10%;
+.dishname .url{
+    margin-bottom: 30px;
 }
 .dishname input{
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    margin-top: 3%;
-}
-.titlebook input{
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    margin-top: 3%;
-}
-.ratingbook input{
     border: none;
     outline: none;
     border-bottom: 1px solid gray;

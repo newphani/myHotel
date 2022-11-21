@@ -22,19 +22,20 @@ const DishList = () => {
     window.location.reload();
    }
     return ( 
-        <div className='booklist'>
+        <div className='dishlist'>
             <div className="len">
             <h1>DishList:{dish.length}</h1>
             </div>
-            <div className="bookList">
+            <div className="dishList">
                 {dish.map((data)=>{
                     return(
                     <div className="list">
+                        <img src={data.img} alt="" />
                         <button className='btn'>{data.id}</button>
                         <h2>{data.dishname}</h2>
                         <p>{data.gravy}</p>
                         <p>{data.rating}</p>
-                        {location.pathname === "/userPortal/dishlist" ? null :(
+                        {location.pathname === "/userPortal" ? null :(
                         <button className='btn1' onClick={()=>handleDelete(data.id)}>Delete</button>
                 )}
                     </div>

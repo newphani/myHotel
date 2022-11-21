@@ -2,12 +2,13 @@ import React from "react";
 import { useState } from "react";
 import "../styles/userlogin.css";
 import { useNavigate } from "react-router-dom";
+import {Link} from 'react-router-dom'
 function Customerlogin() {
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
   let navigate = useNavigate();
   let handleSubmit = () =>{
-    if(email=="user@gmail.com"&&password==1234){
+    if(email==="user@gmail.com"&&password==="1234"){
       navigate("/userPortal")
     }
   }
@@ -28,6 +29,7 @@ function Customerlogin() {
           </div>
           <div className="forgotpass">
             <a href="/">Forgotten Password?</a>
+            <Link to="/signup">Register?</Link>
           </div>
           <div className="bun">
             <button>LOG IN</button >

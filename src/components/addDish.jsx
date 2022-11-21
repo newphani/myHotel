@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "../styles/adddish.css";
 const AddDish = () => {
+  const [img,setImg] = useState('')
   const [dishname, setDishname] = useState("");
   const [gravy, setGravy] = useState("");
   const [rating, setRating] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
     const postBook = {
+      img,
       dishname,
       gravy,
       rating,
@@ -31,6 +33,13 @@ const AddDish = () => {
         <form action="/" className="addd" onSubmit={handleSubmit}>
           <div className="dishname">
             <h1>Add Dish</h1>
+            <label htmlFor="dishname">Image Url</label>
+            <input
+              type="url"
+              placeholder="Enter image url" className="url"
+              value={img}
+              onChange={(e) => setImg(e.target.value)}
+            />
             <label htmlFor="dishname">DishName</label>
             <input
               type="text"

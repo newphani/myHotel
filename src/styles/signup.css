@@ -1,4 +1,4 @@
-.usrlogin{
+.signup{
     width: 100%;
     display: flex;
     /* margin: auto; */
@@ -7,7 +7,7 @@
     background-size: cover;
     height: 100vh;
 }
-.user{
+.sign{
     display: flex;
      margin: auto;
      margin-top: 10%;
@@ -28,7 +28,7 @@
     font-size: 24px;
     margin-bottom: 60px;
 }
-.login_form{
+.signup_form{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -60,9 +60,9 @@
     /* margin-bottom: 10%; */
     width: 15rem;
 }
-.btn{
+.bun{
     display: flex;
-    justify-content:end;
+    justify-content:space-between;
     margin-top: 8%;
 }
 .bun button{

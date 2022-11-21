@@ -1,6 +1,6 @@
-.booklist{
+.dishlist{
     display: flex;
-    width: 70%;
+    width: 50%;
     justify-content: space-evenly;
     position: absolute;
     left: 20%;
@@ -8,8 +8,10 @@
     margin-top: 2%;
     margin-left: 35px;
 }
-.bookList{
+.dishList{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 10%;
@@ -30,6 +32,15 @@
     border: none;
     box-shadow: 2px 2px 24px 0 rgb(0 0 0 / 10%);
     margin-bottom: 2%;
+}
+.list img{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-5px;
+    border-radius: 3px;
 }
 .btn{
     width: 2rem;
