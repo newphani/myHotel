@@ -63,7 +63,7 @@ body{
     text-decoration: none;
  }
  .navbarimag{
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     height:40rem;
     width: 100%;
     display: flex;
@@ -73,8 +73,8 @@ body{
  }
  .navbarimag h1{
     color: #000;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 3rem;
     text-align: center;
  }
  .about{

@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import '../styles/dishlist.css'
 const DishList = () => {
     let location = useLocation();
@@ -37,6 +37,9 @@ const DishList = () => {
                         <p>{data.rating}</p>
                         {location.pathname === "/userPortal" ? null :(
                         <button className='btn1' onClick={()=>handleDelete(data.id)}>Delete</button>
+                )}
+                   {location.pathname === "/adminPortal" ? null :(
+                      <Link to='/ordernow'><button className='btn1'>orderNow</button></Link>
                 )}
                     </div>
                     )

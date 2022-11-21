@@ -8,8 +8,8 @@ function Customerlogin() {
   let [password, setPassword] = useState("");
   let navigate = useNavigate();
   let handleSubmit = () =>{
+    navigate("/userPortal")
     if(email==="user@gmail.com"&&password==="1234"){
-      navigate("/userPortal")
     }
   }
   return (

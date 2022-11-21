@@ -7,6 +7,7 @@ import AdminPortal from './components/adminPortal';
 import AddDish from './components/addDish';
 import PageNotFound from './components/pageNotFound';
 import SignUp from './components/signup';
+import OrderNow from '../src/components/orderNow'
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 function App() {
   let email = "admin@gmail.com"
@@ -22,6 +23,7 @@ function App() {
         <Route path="adminPortal/*" element={ <AdminPortal data={email} />} />
         <Route path="/addDish" element={ <AddDish /> } />
         <Route path="/signup" element={ <SignUp /> } />
+        <Route path="/ordernow" element={ <OrderNow /> } />
         <Route path="*" element={ <PageNotFound /> } />
       </Routes>
       </BrowserRouter>

@@ -24,11 +24,11 @@ const NavBar = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link to="/orderNow" className="logon">
+            {/* <li>
+              <Link to="/ordernow" className="logon">
                 OrderNow
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/" className="logon">
                 LogOut
